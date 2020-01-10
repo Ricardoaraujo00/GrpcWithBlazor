@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService1", "GrpcService1\GrpcService1.csproj", "{87431976-0F75-43B5-9B66-71570E3AC216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{BEDDA653-7ABA-405C-A3A4-8672F6F71251}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87431976-0F75-43B5-9B66-71570E3AC216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87431976-0F75-43B5-9B66-71570E3AC216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87431976-0F75-43B5-9B66-71570E3AC216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87431976-0F75-43B5-9B66-71570E3AC216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDDA653-7ABA-405C-A3A4-8672F6F71251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDDA653-7ABA-405C-A3A4-8672F6F71251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDDA653-7ABA-405C-A3A4-8672F6F71251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDDA653-7ABA-405C-A3A4-8672F6F71251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAC7135F-AA81-4BCC-BB54-9DC34C6A3F9F}
+	EndGlobalSection
+EndGlobal

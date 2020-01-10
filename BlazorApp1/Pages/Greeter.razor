@@ -1,0 +1,31 @@
+﻿@page "/greeter"
+@inject GrpcService1.GreeterService GreeterService1
+
+@using BlazorApp1.Data
+
+<h1>Grpc Connection</h1>
+
+<input type="text" @bind="@Name" />
+<button @onclick="@SayHello">SayHello</button>
+<button @onclick="updateGreetmsg">updateGreetmsg</button>
+
+<p>@Greetmsg</p>
+<p></p>
+
+@code {
+    string Name;
+    string Greetmsg;
+
+
+    async Task SayHello()
+    {
+        this.Greetmsg = await this.GreeterService1.SayHello(this.Name);
+
+    }
+
+    public void updateGreetmsg()
+    {
+
+    }
+
+}
